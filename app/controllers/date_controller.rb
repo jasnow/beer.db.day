@@ -35,4 +35,3 @@ class DateController < ApplicationController
   end
 
 end
-
