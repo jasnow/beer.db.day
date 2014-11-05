@@ -17,4 +17,3 @@ Use it as you please with no restrictions whatsoever.
 
 Send them along to the [Open Beer & Brewery Database Forum/Mailing List](http://groups.google.com/group/beerdb).
 Thanks!
-

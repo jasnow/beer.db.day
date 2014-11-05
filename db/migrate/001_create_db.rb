@@ -17,4 +17,3 @@ class CreateDb < ActiveRecord::Migration
   end
 
 end
-

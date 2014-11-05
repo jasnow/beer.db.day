@@ -19,7 +19,7 @@
   .beer {
     text-align: center;
     font-size: 80px;
-  }  
+  }
   .beer-info {
     text-align: center;
     font-size: 24px;
@@ -30,7 +30,7 @@
     text-align: center;
     font-size: 48px;
   }
-  
+
   .brewery-info {
     margin-top: 8px;
     text-align: center;
@@ -38,8 +38,8 @@
   }
 
   .brewery-world {
-    text-align: center;    
-  }  
+    text-align: center;
+  }
 </style>
 
 
@@ -51,9 +51,9 @@
   <div class='date-day'><%= @date.day %></div>
   <div class='date-monthname'><%= @date_monthname %></div>
   <div class='date-year'><%= @date.year %></div>
-  
+
   <div class='date-yday-n-week'>
-     Day <%= @date.yday %> / Week <%= @date_week %> 
+     Day <%= @date.yday %> / Week <%= @date_week %>
   </div>
 
     </td>
@@ -74,17 +74,17 @@
       <div class='brewery-info'>
          <%= @beer.brewery.address %>
          <% if @beer.brewery.web %>
-           • 
+           •
          <a href="http://<%= @beer.brewery.web %>"><%= @beer.brewery.web %></a>
          <% end %>
       </div>
       <div class='brewery-world'>
-         <%= @beer.brewery.city.name %> › 
-         <%= @beer.brewery.region.name %>  › 
+         <%= @beer.brewery.city.name %> ›
+         <%= @beer.brewery.region.name %>  ›
          <%= @beer.brewery.country.name %>
       </div>
       <div class='beer-fotos'>
-        
+
       </div>
 
     </td>

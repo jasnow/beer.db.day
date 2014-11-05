@@ -1,3 +1,2 @@
 
 Beer = BeerDb::Model::Beer
-

@@ -51,7 +51,9 @@ GEM
     activesupport (3.2.14)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
-    annotate (2.4.1.beta1)
+    annotate (2.6.5)
+      activerecord (>= 2.3.0)
+      rake (>= 0.8.7)
     arel (3.0.3)
     beerdb (0.9.9)
       activerecord
@@ -172,21 +174,21 @@ PLATFORMS
 
 DEPENDENCIES
   about
-  annotate (~> 2.4.1.beta)
-  beerdb (= 0.9.9)
+  annotate
+  beerdb
   beerdb-data-at (= 99)!
-  coffee-rails (~> 3.2.1)
+  coffee-rails
   dbbrowser
   jquery-rails
   logutils
   pg
   rails (= 3.2.14)
-  sass-rails (~> 3.2.3)
+  sass-rails
   sinatra
   sqlite3
   thin
-  uglifier (>= 1.0.3)
+  uglifier
   worlddb
   worlddb-data (= 99)!
   worlddb-data-at (= 99)!
-  worlddb-flags (= 0.1.0)
+  worlddb-flags
